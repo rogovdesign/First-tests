@@ -74,58 +74,11 @@ h1,h2,h3,h4,h5,h6 {
 }
 /*--------------------*/
 
-.navigation {
-  display: flex;
-  max-height: 100%;
-  flex-direction: row;
-  justify-content: space-between;
-  text-align: center;
+
+.block{
+  background: url('/img/image091-27.jpg') 0 0 no-repeat
+  +;
+  height: 200px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.192);
 }
-
-.header {
-  background-color: rgb(255, 255, 255);
-  padding: 10px 10px 10px 10px;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-
-}
-
-.navitem {
-  padding: 20px;
-  list-style-type: none;
-  text-align: center;
-}
-
-.logo {
-  margin: auto 0;
-}
-
-._logo {
-  height: 50px;
-}
-
-.navitem a
-{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: rgb(110, 110, 110);
-  font-size: 18px;
-}
-
-.navitem a:hover{
-  color: brown;
-}
-
-.headerbutton
-{
-  display: block;
-  margin: 0;
-  padding: 10px 20px 10px 20px;
-}
-
-._button{
-  margin: auto 0;
-}
-
-._button1{
-  margin: auto 30px;
-}
-
